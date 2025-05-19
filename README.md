@@ -15,7 +15,7 @@ The overall architecture of HeteroMorpheus is shown in the figure below：
 Clone the repo and submodules:
 
 ```shell
-git clone --recurse-submodules https://github.com/hyf1530588058/HeteroMorpheus.git
+git clone --recurse-submodules http://gitlab.idrl.ac.cn:88/hyf/HeteroMorpheus.git
 ```
 
 ### Requirements
