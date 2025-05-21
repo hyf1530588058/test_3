@@ -15,7 +15,13 @@ The overall architecture of HeteroMorpheus is shown in the figure below：
 Clone the repo and submodules:
 
 ```shell
-git clone --recurse-submodules http://gitlab.idrl.ac.cn:88/hyf/HeteroMorpheus.git
+git clone --recurse-submodules http://gitlab.idrl.ac.cn:88/hyf/test_3.git
+```
+
+Create env:
+
+```shell
+conda create -n evogym_hm python=3.7
 ```
 
 ### Requirements
@@ -26,10 +32,28 @@ git clone --recurse-submodules http://gitlab.idrl.ac.cn:88/hyf/HeteroMorpheus.gi
 sudo apt-get install xorg-dev libglu1-mesa-dev
 ```
 
+```shell
+sudo apt install -y build-essential cmake python3-dev libgl1-mesa-dev libxi-dev
+```
+
 Install Python dependencies with pip:
 
 ```shell
+conda activate evogym_hm
+```
+
+```shell
 pip install -r requirements.txt
+```
+
+build the C++ simulation:
+
+```shell
+python setup.py install
+```
+
+```shell
+pip install -e .
 ```
 
 ## Running the code
