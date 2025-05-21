@@ -11,9 +11,9 @@ if __name__ == "__main__":
     run_meta(
         structure_shape = (5,5),
         experiment_name = "test_metamorph",
-        max_evaluations = 12,
-        train_iters = 1000,
-        num_cores = 12
+        max_evaluations = 3,
+        train_iters = 50,
+        num_cores = 3
     )
 
 # * `seed` = seed to control randomness

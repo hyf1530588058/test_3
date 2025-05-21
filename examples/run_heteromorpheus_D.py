@@ -12,9 +12,9 @@ if __name__ == "__main__":
     run_universal2(
         structure_shape = (5,5),
         experiment_name = "test_heteromorpheus_d",
-        max_evaluations = 12,
-        train_iters = 1000,
-        num_cores = 12
+        max_evaluations = 3,
+        train_iters = 50,
+        num_cores = 3
     )
 
     print('run_universal over at ', datetime.datetime.now())

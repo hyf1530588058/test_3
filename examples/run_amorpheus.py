@@ -12,9 +12,9 @@ if __name__ == "__main__":
     run_mybody(
         structure_shape = (5,5),
         experiment_name = "test_amorpheus",
-        max_evaluations = 1,
+        max_evaluations = 3,
         train_iters = 50,
-        num_cores = 1
+        num_cores = 3
     )
 
     print('run_universal over at ', datetime.datetime.now())
